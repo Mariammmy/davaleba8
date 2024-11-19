@@ -28,9 +28,26 @@
     height: 620px;
 }
 .left{
+    display: inline-block;
+    width: 235px;
+    height: 200px;
+    margin: 47px 83px 20px 100px;
+}
 
+.left p{
+    display: block;
+    color: gray;
+    margin-top: 30px;
+}
+
+.left h3{
+    color: #010101;
+    font-weight: 400;
+    font-size: 28px;
+    margin-top: 10px;
 }
 
 .right{
+    display: flex;
 
 }
