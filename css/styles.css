@@ -48,6 +48,33 @@
 }
 
 .right{
-    display: flex;
+    display: inline-flex;
+    flex-wrap: wrap;
+    margin: 50px;
+    width: 1000px;
+}
 
+.right img{
+    width: 286px;
+    height: 195px;
+    margin-left: 33px;
+    margin-top: 33px;
+}
+
+.right h2{
+    color: #343232;
+    font-size: 19px;
+    font-weight: 400;
+    margin-left: 33px;
+    margin-top: 10px;
+}
+
+.right p{
+    font-size: 18px;
+    font-weight: 400;
+    margin-left: 33px;
+    width: 286px;
+    height: 63px;
+    color: #636060;
+    margin-top: 5px;
 }
